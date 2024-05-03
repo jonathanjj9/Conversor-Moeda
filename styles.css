@@ -4,25 +4,24 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     outline: none;
-    
 }
 
 body {
-    background-color: yellow;
+    background-color: rgb(153, 227, 243)
 }
 
-.logo {
+.logoDinheiro {
     width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
-
 }
 
 main {
     width: 375px;
+    height: 720px;
     background: #f4f4f4;
     border-radius: 20px;
     margin-left: auto;
@@ -30,41 +29,45 @@ main {
     margin-top: 0;
     margin-bottom: 40px;
     padding: 44px 24px 23px;
+    
+
 }
 
-label {
-    color: #777777;
+label{
+    color: #772FD3;
     font-weight: 400;
     font-size: 14px;
+    
 }
+select,input{
 
-select,input {
+    color: #59428D;
     background: #FFFFFF;
     border-radius: 4px;
-    Border: 1px solid #BBBBBB;
+    border: 1px solid #BBBBBB;;
+    width: 327px;
     height: 48px;
-    width: 100%;
     margin-bottom: 24px;
-    appearance: none;
     padding-left: 18px;
     font-weight: 700;
     font-size: 16px;
-    color: #555555;
-    cursor: pointer;
+    border: #772FD3;
+    appearance: none;
+    
 
-}
+} 
 
-button {
-    background: #772247;
+button{
     width: 100%;
-    border-radius: 5px;
-    border: none;
     height: 48px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    background: #772fd3;
     color: #FFFFFF;
-    font-size: 18px;
     font-weight: 700;
     cursor: pointer;
-
+    border: none;
+    font-size: 18px;
 }
 
 button:hover {
@@ -75,23 +78,24 @@ button:active {
     opacity: 0.6;
 }
 
-section {
-    border: 1px solid red;
-    border-radius: 20px;
-    margin-top: 36px;
-    padding: 12px;
 
+
+section {
+    border: 1px solid #772fd3;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 12px;
+       
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;  
 }
 
-.arrow-img {
+.arrow-img{
     margin: 15px 0;
 }
 
-
-.currency-box {
+.currency-box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,13 +103,13 @@ section {
 }
 
 .currency {
-    color: #777777;
+    color: #59428D;;
     font-size: 14px;
 }
 
 .currency-value,
 .currency-value-to-convert {
-    color: #555555;
+    color: #59428D;
     font-size: 20px;
     font-weight: 700;
 }
